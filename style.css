@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background:#e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#calculator{
+    background-color:#060606;
+    padding: 20px;
+    border-radius:40px;
+}
+
+form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius:30px;
+    background:rgb(32, 30, 30);
+    font-size: 20px;
+    color: #fff;
+    cursor:pointer;
+    margin: 9px;
+}
+
+form .screen{
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px 0;
+}
+
+form .screen input{
+    text-align:right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow:none;
+}
+
+form .divide,.minus,.multi,.plus,.equals{
+    background-color:rgb(237, 145, 31);
+}
+
+form .equals{
+    width: 145px;
+}
+form .ac,.de,.zero{
+    background-color: darkkhaki;
+
+}
+form .display{
+    border-radius: 10px;
+    
+    
+}
+
+
